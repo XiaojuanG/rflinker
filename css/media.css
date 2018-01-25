@@ -35,7 +35,10 @@ h1{margin-top:0px}
 .top-nav li a{line-height: 40px;}
 .dropdown-menu li a{line-height: 30px;}
 }
-
+@media (max-width: 991px){
+.contact-us{text-align: center;}
+	.contact-us .qr-code{text-align: center; margin-top: 20px}
+}
 @media (min-width: 768px){
 /*.navbar-right{margin-right:0px!important;}*/
 }
@@ -48,6 +51,8 @@ h1{margin-top:0px}
 	.footer{font-size:14px;}
 	.news h3{font-size:18px;}
 	.news-list .row{ margin-bottom:40px;}
+	.contact-us{text-align: center;}
+	.contact-us .qr-code{text-align: center; margin-top: 20px}
 }
 
 @media (max-width:556px) {
@@ -62,11 +67,15 @@ h1{margin-top:0px}
 .introduce{ padding: 0px 0px 10px; }
 .introduce .intro-content a{ margin-top: 0px; }
 .zjlist{ margin:10px 0px 0px; }
+.contact-us{text-align: center;}
+.contact-us .qr-code{text-align: center; margin-top: 20px}
 
 }
 @media (max-width:456px) {
 .zjlist .zj_move p{ line-height: 20em; }
 .navbar .container{padding: 0px;}
+.contact-us{text-align: center;}
+.contact-us .qr-code{text-align: center; margin-top: 20px}
 }
 @media (max-width:356px) {
 	.navbar-brand{ padding-left: 5px; }
@@ -74,4 +83,6 @@ h1{margin-top:0px}
 	.top-nav li a{ line-height: 20px; }
 	.top-box .navbar-nav{width: 100%; padding-left:10px;}
 	.zjlist .zj_move p{ line-height: 16em; }
+	.contact-us{text-align: center;}
+	.contact-us .qr-code{text-align: center; margin-top: 20px}
 }
